@@ -18,25 +18,26 @@ The [Swift Package Manager](https://www.swift.org/package-manager/) is "a tool f
 
 Once you have your Swift package set up, add CrackStation to the list of dependencies in your `Package.swift` file:
 
-```dependencies: [
-        .package(url:"", .upTonextMajor(from: ""))
+```
+dependencies: [
+        .package(url:"git@github.com:HansChen2/CrackStation.git", .upTonextMajor(from: "1.0.0"))
     ]
 ```
 
 ### Usage
 
-First, clone this project to your workplace. Then, you can check the unit test that cracks the password. You are able to change any SHA1 or SHA256 and the crackedPassword. If the unit test success, it means the SHA1 or SHA256 matches the crackedPassword and vice versa.
-
 ### **The API**
 
 ### **An example**
 
-```public init() {
+```
+public init() {
         myCrackStation = MyCrackStation()
         lookupTable = try! myCrackStation.loadDictionaryFromDisk()
     }
 ```
-```public func decrypt(shaHash: String) -> String? {
+```
+public func decrypt(shaHash: String) -> String? {
         let crackedPassword = lookupTable[shaHash]
         return crackedPassword
     }
