@@ -27,15 +27,19 @@ dependencies: [
 ## Usage
 
 ### **The API**
+The function `init` is to create decrypter and then generate data.json. And the function `decrypt` is the password that decrypts the hashes into 1 to 3 characters.
 
 ### **An example**
 
+The function `init`
 ```
 public init() {
         myCrackStation = MyCrackStation()
         lookupTable = try! myCrackStation.loadDictionaryFromDisk()
     }
 ```
+
+The function `decrypt`
 ```
 public func decrypt(shaHash: String) -> String? {
         let crackedPassword = lookupTable[shaHash]
