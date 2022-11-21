@@ -2,11 +2,11 @@
 
 This library is a crack station that is able to crack any password up to three characters in length.
 
-### Overview
+## Overview
 
 This library is a CrackStation that utilizes the SHA1 and SHA256 hash function to crack passwords [SHA1 Online](https://emn178.github.io/online-tools/sha1.html). It can crack any passwords up to three characters in length. In other words, cracking any three characters consisting of [A-Z, a-z, 0-9, ?, !] using the SHA1 and SHA256 hash function. 
 
-### Mission Statement
+## Mission Statement
 
 This library is one of the projects of CS 561 of Oregon State University in the 2022 Fall term. This project is mainly for students to understand how CrackStation works and use the Xcode editor to write own CrackStation.
 
@@ -20,11 +20,11 @@ Once you have your Swift package set up, add CrackStation to the list of depende
 
 ```
 dependencies: [
-        .package(url:"git@github.com:HansChen2/CrackStation.git", .upTonextMajor(from: "1.0.0"))
+        .package(url:"git@github.com:HansChen2/CrackStation.git", .upToNextMajor(from: "1.1.0"))
     ]
 ```
 
-### Usage
+## Usage
 
 ### **The API**
 
@@ -44,11 +44,11 @@ public func decrypt(shaHash: String) -> String? {
 }
 ```
 
-### Git tag
+## Git tag
 
 The version of the latest stable release: 1.1.0
 
-### Author
+## Author
 
 Chun-Han Chen
 
