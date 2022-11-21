@@ -8,7 +8,7 @@ This library is a CrackStation that utilizes the SHA1 and SHA256 hash function t
 
 ## Mission Statement
 
-This library is one of the projects of CS 561 of Oregon State University in the 2022 Fall term. This project is mainly for students to understand how CrackStation works and use the Xcode editor to write own CrackStation.
+This library is one of the projects of CS 561 of Oregon State University in the 2022 Fall term. This project is mainly for students to understand how CrackStation works and use the Xcode editor to write own CrackStation. For more information: [Salt (cryptography)](https://en.wikipedia.org/wiki/Salt_(cryptography))
 
 ## Installation
 
