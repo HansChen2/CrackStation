@@ -4,7 +4,7 @@ This library is a crack station that is able to crack any unsalted password up t
 
 ## Overview
 
-This library is a CrackStation that utilizes the SHA1 and SHA256 hash function to crack passwords [SHA1 Online](https://emn178.github.io/online-tools/sha1.html). It can crack any passwords up to three characters in length. In other words, cracking any three characters consisting of [A-Z, a-z, 0-9, ?, !] using the SHA1 and SHA256 hash function. 
+This library is a CrackStation that utilizes the SHA1 and SHA256 hash function to crack passwords [SHA1 Online](https://emn178.github.io/online-tools/sha1.html). It can crack any unsalted passwords up to three characters in length. In other words, cracking any three characters consisting of [A-Z, a-z, 0-9, ?, !] using the SHA1 and SHA256 hash function. 
 
 ## Mission Statement
 
@@ -53,7 +53,7 @@ final class CrackStationTests: XCTestCase {
 
 ## Git tag
 
-The version of the latest stable release: 1.1.0
+The version of the latest stable release: 1.2.0
 
 ## Author
 
